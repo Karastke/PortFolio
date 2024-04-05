@@ -16,7 +16,7 @@ function App() {
         <div className='container m-auto px-4 py-6'>
           <div className='flex justify-between items-center'>
             <div>
-              <h1 className='font-bold text-xl'>Youngwook Portfolio</h1>
+              <h1 className='font-bold text-xl'>Youngwook's Portfolio</h1>
             </div>
             <div>
               <ul className='flex gap-4'>
@@ -37,25 +37,25 @@ function App() {
         </div>
       </header>
       <main>
-        {/* 배너 부분 추가 예정 */}
+        {/* 배너 섹션 */}
         <section>
-          <div className='container m-auto px-4 py-32 flex gap-6'>
+          <div className='container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-6'>
             <div>
               <h1 className='font-bold text-4xl'>Hello! I'm Youngwook</h1>
               <h1 className='font-bold text-4xl mt-1 gradiant-text running-text'>Full-Stack Developer</h1>
               <p className='mt-4 text-gray-400'>Seeking to apply competent development skills with focus on collaboration, communication, and passion</p>
             </div>
             <div className='relative'>
-              <img src={Porfile} width={360} className=' relative z-10' />
-              <img src={PorfileBg} width={500} className='absolute top-5 left- z-0' />
+              <img src={Porfile} className=' relative z-10 w-[180px] m-auto sm:w-[400px]' />
+              <img src={PorfileBg} className='relative -top-[160px] left-[50px] w-[200px] m-auto sm:w-[400px]'  />
             </div>
           </div>
         </section>
-        {/* Project section */}
+        {/* Project 섹션*/}
         <section>
-          <div className='container m-auto px-4 py-12'>
+          <div className='container m-auto px-4 sm:py-12'>
           <h2 className='text-4xl font-semibold'>Projects</h2> 
-            <div className='flex gap-10 mt-11'>
+            <div className='flex flex-col sm:flex-row gap-10 mt-11'>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={Project1} className='w-full h-auto' />
                 <h3 className='text-2xl font-semibold mt-8'>가구 판매 페이지</h3>
@@ -75,7 +75,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className='flex gap-10 mt-11'>
+            <div className='flex flex-col sm:flex-row gap-10 mt-11'>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={Project1} className='w-full h-auto' />
                 <h3 className='text-2xl font-semibold mt-8'>가구 판매 페이지</h3>
@@ -131,7 +131,7 @@ function App() {
           <div className='container m-auto px-4 py-14'>
             <h2 className='text-3xl font-semibold'>
               Additional Technologies and Skills</h2>
-            <div className='flex text-xl gap-20 mt-12 w-[80%]'>
+            <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
               <div>
                 <p className='font-semibold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git </p>
               </div>
@@ -145,8 +145,8 @@ function App() {
                 <p className='font-semibold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Quick Learning </p>
               </div>
             </div>
-            <div className='text-xl flex gap-20 mt-8 w-[80%]'>
-              {/* <div> 후에 기술 추가되면 사용할거
+            {/* <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
+              <div> 후에 기술 추가되면 사용할거
                 <p className='font-semibold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'> </p>
               </div>
               <div>
@@ -154,8 +154,8 @@ function App() {
               </div>
               <div>
                 <p className='font-semibold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Teamwork </p>
-              </div> */}
-            </div>
+              </div>
+            </div> */}
           </div>
         </section>
         <section className='py-8'>
