@@ -1,8 +1,15 @@
-# React + Vite
+이 프로젝트는 본격적인 React 공부에 들어가기 전 개발환경에 익숙해지기 위해 연습용으로 만든 포트폴리오 페이지 소스코드 입니다. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 1.사용한 빌드 도구 
+- Vite
+
+## 2. 사용한 프레임 워크
+- React, Tailwind CSS
+
+
+
+## 3. 사용된 IDE
+- Visual Studio Code 
